@@ -1,0 +1,28 @@
+@import './base.css';
+
+#app {
+    width: 100%;
+    height: inherit;
+    font-weight: normal;
+}
+
+body {
+    display: flex;
+    background-color: #f0f2f5;
+}
+
+html {
+    overflow-y: auto !important;
+}
+
+.v-list-item--rounded {
+    border-radius: 9px !important;
+}
+
+.v-card {
+    border-radius: 18px !important;
+}
+
+.v-field--rounded {
+    border-radius: 18px !important;
+}

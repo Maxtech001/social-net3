@@ -1,0 +1,6 @@
+-- +migrate Up
+CREATE TABLE post_images_connections (
+    POSTID INTEGER NOT NULL,
+    IMAGEPATH TEXT NOT NULL,
+    FOREIGN KEY(POSTID) REFERENCES posts(ID)
+);

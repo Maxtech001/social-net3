@@ -1,0 +1,6 @@
+-- +migrate Up
+CREATE TABLE comment_images_connections (
+    COMMENTID INTEGER NOT NULL,
+    IMAGEPATH TEXT NOT NULL,
+    FOREIGN KEY(COMMENTID) REFERENCES comments(ID)
+);
